@@ -1,0 +1,15 @@
+# Rules:
+It is managerial game where you will be asked to create and manage your own club. You can buy or sell players from the market of your choice abiding to two conditions:
+1.	You must have players from all ten positions to start a match
+2.	Your purchase cost must not exceed the initial budget given to you.
+There are 4 types of players:
+1.	Goal Keeper GK
+2.	Defender LB,CB,RB(Left-Back, Centre Back, Right-Back)
+3.	Midfield   LM,CM,RM(Left-Mid, Centre Mid, Right-Mid)
+4.	Attacker   LW,CF,RW(Left-Wing, Centre Forward, Right-Wing)
+You can only pass according to the hierarchy, a GK can pass only to a defender of his choice and he in turn can only pass to a midfielder of his choice, 
+who in turn can pass only to attacker of his choice. The attacker can shoot the ball at the opponent GK. Now how interception by opponent occurs is that we 
+compare the rating of players(opponent) present in between the passing lanes and if their rating exceeds that of the current players, they can intercept the ball 
+and start playing from that line.  Example: A pass from GK to defender can be intercepted by the opposition. A pass from defender to midfielder can be intercepted 
+by the nearest midfielder of the opposition team, if he does intercept, he will start passing it to his attacker. 
+The match is played only for 1 goal. First goal wins, no second chances. For a win you get 3 points and a point for draw and none for a loss.
